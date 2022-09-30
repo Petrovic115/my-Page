@@ -11,19 +11,13 @@ const CountryPreview = () => {
 
 
   useEffect(() =>{
-      // const fetchCountry = async () => {
-      //   const response = await fetch (`https://restcountries.com/v3.1/name/${name}`)
-      //   const country = await response.json()
-      //   setCountry(country);
-      // }
-      // fetchCountry() 
       axios.get(`https://restcountries.com/v3.1/name/${name}`).then((response) => {
         setCountry(response.data)
       })
     },[])
 
   const closePop = () => {
-     navigate('/home')
+     navigate('/test')
   }
  
   return (

@@ -3,8 +3,10 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { FaEye } from 'react-icons/fa'
 import { toast } from 'react-toastify'
+import GoogleAuth from '../Components/GoogleAuth'
 // firebase 
 import { useAuth } from '../Context/AuthContext'
+
 
 const Login = () => {
     const { login } = useAuth()
@@ -53,6 +55,7 @@ const Login = () => {
                         </button>
                     </div>
                 </form>
+                <GoogleAuth />
                 <div className='signUp-link'>
                     <p>Dont have an account</p>
                     <Link className='signUpLink' to='/sign-up'>

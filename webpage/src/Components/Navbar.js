@@ -8,13 +8,13 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className='contain flex'>
         <div className="logo">
-            <NavLink to='/home'>
+            <NavLink to='/'>
             <img src={Logo} alt="Logo" />
             </NavLink>
         </div>
         <ul className='nav-links'>
-            <NavLink  to='/home'>Home</NavLink>
-            <NavLink to=''>About</NavLink>
+            <NavLink  to='/'>Home</NavLink>
+            <NavLink to=''>Explore</NavLink>
             <NavLink to=''>Contact</NavLink>
             <NavLink to='/profile'>Profile</NavLink>
         </ul>

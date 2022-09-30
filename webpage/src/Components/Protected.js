@@ -9,7 +9,7 @@ const Protected = () => {
      return <h3>Loading...</h3>
    }
 
-  return loggedIn ? <Outlet /> : <Navigate to='/' />
+  return loggedIn ? <Outlet /> : <Navigate to='/login' />
 }
 
 export default Protected

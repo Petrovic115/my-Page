@@ -9,17 +9,6 @@ a {
   text-decoration: none;
 }
 
-.container { 
-  width: min(1170px, calc(100vw - 50px));
-  margin-inline: auto;
-
-  margin-left: 550px;
-
-  display: flex;
-  gap: 30px;
-  flex-wrap: wrap;
-}
-
 .contain {
   width: min(1170px, calc(100vw - 50px));
   margin-inline: auto;

@@ -3,6 +3,7 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { FaEye } from 'react-icons/fa'
 import { toast } from 'react-toastify'
+import GoogleAuth from '../Components/GoogleAuth'
 // firebase
 import { useAuth } from '../Context/AuthContext'
 import { getAuth, updateProfile } from 'firebase/auth'
@@ -63,9 +64,10 @@ export default function SignUp() {
                     </button>
                 </div>
             </form>
+            <GoogleAuth />
             <div className='signUp-link'>
                 <p>Already have and account</p>
-                <Link className='signUpLink' to='/'>
+                <Link className='signUpLink' to='/login'>
                     Sign In
                 </Link>
             </div>

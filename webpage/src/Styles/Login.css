@@ -106,7 +106,7 @@
     display: flex;
     gap: 20px;
 
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 .signUp-link p {
@@ -120,4 +120,25 @@
     font-family: Sora;
     font-weight: 500;
     color: #fff;
+}
+
+.gSign {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    margin-top: 40px;
+}
+
+.gSign p {
+    font-size: 1.125rem;
+    font-family: Sora;
+    font-weight: 500;
+}
+
+.gIcon {
+    font-size: 1.125rem;
+    color: #fff;
+
+    cursor: pointer;
 }
